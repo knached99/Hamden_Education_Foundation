@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'HamdenEducationFoundationdata',
-	'password' => 'OEE)a@4gJHSqQC8>',
-	'database' => 'id18895015_hef',
+	'dsn'	=> '', // Not showing database details for privacy
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
+	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

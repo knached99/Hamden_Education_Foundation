@@ -171,7 +171,7 @@
                 $config['protocol']='smtp';
                 $config['smtp_host']='smtp.gmail.com';
                 $config['smtp_user']='hefcsc400@gmail.com';
-                $config['smtp_pass']='southernct.edu1';
+                $config['smtp_pass']=''; // not showing for privacy
                 $config['smtp_port']='465';
                 $config['newline']="\r\n";
                 $config['smtp_timeout']='5';
