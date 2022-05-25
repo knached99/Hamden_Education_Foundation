@@ -352,7 +352,7 @@ class Dash extends CI_Controller{
         }
         else{
             $admin_id = 'admin'.sha1(date('m-d-y').time());
-            $password = 'password123';
+            $password = 'password123'; // temp for now then find a way to generate random pwd 
             $hashed_pass = password_hash($password, PASSWORD_DEFAULT);
             $profile_pic= '/default_pic/avatar-1.png';
             $admin_data = array(
@@ -1036,7 +1036,7 @@ class Dash extends CI_Controller{
         $config['protocol']='smtp';
         $config['smtp_host']='smtp.gmail.com';
         $config['smtp_user']='hefcsc400@gmail.com';
-        $config['smtp_pass']='75Mb/3XC+5"u]CEN';
+        $config['smtp_pass']=''; // not showing pwd 
         $config['smtp_port']='465';
         $config['newline']="\r\n";
         $config['smtp_timeout']='5';
@@ -1079,7 +1079,7 @@ class Dash extends CI_Controller{
         $config['protocol']='smtp';
         $config['smtp_host']='smtp.gmail.com';
         $config['smtp_user']='hefcsc400@gmail.com';
-        $config['smtp_pass']='75Mb/3XC+5"u]CEN';
+        $config['smtp_pass']=''; // removing pwd 
         $config['smtp_port']='465';
         $config['newline']="\r\n";
         $config['smtp_timeout']='5';
@@ -1136,7 +1136,7 @@ class Dash extends CI_Controller{
         $config['protocol']='smtp';
         $config['smtp_host']='smtp.gmail.com';
         $config['smtp_user']='hefcsc400@gmail.com';
-        $config['smtp_pass']='75Mb/3XC+5"u]CEN';
+        $config['smtp_pass']=''; //not showing pwd 
         $config['smtp_port']='465';
         $config['newline']="\r\n";
         $config['smtp_timeout']='5';
@@ -1179,7 +1179,7 @@ class Dash extends CI_Controller{
         $config['protocol']='smtp';
         $config['smtp_host']='smtp.gmail.com';
         $config['smtp_user']='hefcsc400@gmail.com';
-        $config['smtp_pass']='75Mb/3XC+5"u]CEN';
+        $config['smtp_pass']=''; //not showing pwd 
         $config['smtp_port']='465';
         $config['newline']="\r\n";
         $config['smtp_timeout']='5';
@@ -1223,7 +1223,7 @@ class Dash extends CI_Controller{
         $config['protocol']='smtp';
         $config['smtp_host']='smtp.gmail.com';
         $config['smtp_user']='hefcsc400@gmail.com';
-        $config['smtp_pass']='75Mb/3XC+5"u]CEN';
+        $config['smtp_pass']=''; // not showing pwd 
         $config['smtp_port']='465';
         $config['newline']="\r\n";
         $config['smtp_timeout']='5';
@@ -1266,7 +1266,7 @@ class Dash extends CI_Controller{
         $config['protocol']='smtp';
         $config['smtp_host']='smtp.gmail.com';
         $config['smtp_user']='hefcsc400@gmail.com';
-        $config['smtp_pass']='75Mb/3XC+5"u]CEN';
+        $config['smtp_pass']=''; // not showing pwd  
         $config['smtp_port']='465';
         $config['newline']="\r\n";
         $config['smtp_timeout']='5';
@@ -1304,7 +1304,7 @@ class Dash extends CI_Controller{
         $config['protocol']='smtp';
         $config['smtp_host']='smtp.gmail.com';
         $config['smtp_user']='hefcsc400@gmail.com';
-        $config['smtp_pass']='75Mb/3XC+5"u]CEN';
+        $config['smtp_pass']=''; // not showing pwd 
         $config['smtp_port']='465';
         $config['newline']="\r\n";
         $config['smtp_timeout']='5';
